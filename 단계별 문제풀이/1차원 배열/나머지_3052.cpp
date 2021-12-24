@@ -16,9 +16,9 @@ int main(void) {
 			if (index[i] == index[j])
 				count++;
 		}
-		if (count == 0) 
+		if (count == 0)
 			result++;
-		
+
 	}
 
 	printf("%d", result);
