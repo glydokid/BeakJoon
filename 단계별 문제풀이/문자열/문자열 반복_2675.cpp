@@ -17,7 +17,7 @@ int main() {
 			for (int k = 0; k < R; k++) {
 				printf("%c", S[j]);
 			}
-		}
+		}printf("\n");
 	}
 
 	return 0;
