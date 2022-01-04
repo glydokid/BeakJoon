@@ -35,5 +35,6 @@ int self_number() {
 		if (arr[i] != 1)
 			printf("%d\n", i);
 		}
+
 	return 0;
 	}
