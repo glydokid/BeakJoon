@@ -3,6 +3,7 @@
 int main() {
 
 	int A, Max = -1000000, Min = 1000000;
+
 	int arr[1000000];
 
 	scanf("%d", &A);
