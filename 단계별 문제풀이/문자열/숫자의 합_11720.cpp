@@ -3,6 +3,7 @@
 int main(void) {
 
     int n, sum = 0;
+
     char arr[101] = {0};
 
     scanf("%d", &n);
