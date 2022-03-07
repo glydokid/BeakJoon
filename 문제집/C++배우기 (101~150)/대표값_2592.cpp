@@ -4,6 +4,7 @@ int main(void)
     int i, j, sum = 0, max = -1, cnt;
     int arr[10] = { 0, };
     int arr2[105] = { 0, };
+
     for (i = 0; i < 10; i++)
     {
         scanf("%d", &arr[i]);
