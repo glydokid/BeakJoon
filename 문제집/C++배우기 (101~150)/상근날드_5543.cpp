@@ -2,23 +2,26 @@
 
 int main(void)
 {
-	int burger[3] = {0, }; //»ó´ö¹ö°Å, Áß´ö¹ö°Å, ÇÏ´ö¹ö°Å
-	int drink[2] = {0, }; //Äİ¶ó, »çÀÌ´Ù
+	int burger[3] = {0, }; //ìƒë•ë²„ê±°, ì¤‘ë•ë²„ê±°, í•˜ë•ë²„ê±°
+	int drink[2] = {0, }; //ì½œë¼, ì‚¬ì´ë‹¤
 	int burger_min = 0;
 	int drink_min = 0;
 	int min = 2001;
 
-
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < 3; i++) 
+	{
 		scanf("%d", &burger[i]);
 	}
 
-	for (int i = 0; i < 2; i++) {
+	for (int i = 0; i < 2; i++) 
+	{
 		scanf("%d", &drink[i]);
 	}
 
-	for (int i = 0; i < 3; i++) {
-		if (min > burger[i]) {
+	for (int i = 0; i < 3; i++) 
+	{
+		if (min > burger[i]) 
+		{
 			min = burger[i];
 			burger_min = burger[i];
 		}
@@ -26,8 +29,10 @@ int main(void)
 
 	min = 2001;
 
-	for (int i = 0; i < 2; i++) {
-		if (min > drink[i]) {
+	for (int i = 0; i < 2; i++) 
+	{
+		if (min > drink[i]) 
+		{
 			min = drink[i];
 			drink_min = drink[i];
 		}
