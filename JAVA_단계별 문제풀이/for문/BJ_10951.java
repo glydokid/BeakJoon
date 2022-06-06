@@ -16,5 +16,6 @@ public class BJ_10951 {
 		
 		}	
 		sc.close();
-	}
+		}
+	
 	}
